@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess The Number 🎮</title>
+
+  <!-- Futuristic Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet" />
+  
+  <!-- Your Game CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Guess The Number</h2>
+    <h3>Between 1 and 100</h3>
+
+    <!-- Start Button -->
+    <button class="start">Start Game</button>
+
+    <!-- Game Info -->
+    <p>You have <b>10</b> tries left</p>
+
+    <!-- Guess Input -->
+    <input type="number" placeholder="Enter your guess..." class="numberInput" />
+    <button class="submitBTN">Submit</button>
+
+    <!-- Game Message -->
+    <p class="message">Press “Start Game” to begin!</p>
+
+    <!-- Guess List -->
+    <p>🔢 Previous guesses:</p>
+    <ol></ol>
+  </div>
+
+  <!-- Game Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
