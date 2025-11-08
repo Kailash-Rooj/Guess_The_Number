@@ -154,3 +154,57 @@ b {
   font-weight: 800;
   font-size: larger;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .game-container {
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .numberInput {
+        width: 80%;
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 8px;
+    }
+
+    .submitBTN, .start {
+        width: 85%;
+        font-size: 1rem;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    ol {
+        max-height: 120px;
+        overflow-y: auto;
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .message {
+        font-size: 1rem;
+        margin: 12px 0;
+    }
+
+    b {
+        font-size: 1.1rem;
+        display: inline-block;
+        margin-top: 5px;
+    }
+}
